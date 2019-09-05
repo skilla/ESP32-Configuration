@@ -4,7 +4,7 @@
 
 #include "ESP32Configuration.h"
 
-ESP32Configuration::Configuration(byte version, void * data_structure, unsigned long data_size)
+ESP32Configuration::ESP32Configuration(byte version, void * data_structure, unsigned long data_size)
 {
     this->_version = version;
 
